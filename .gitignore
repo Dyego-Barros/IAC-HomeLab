@@ -13,4 +13,7 @@ terraform.tfstate
 terraform.tfstate.backup
 .gitignore
 .DS_Store
-kubespray/
+DS_Store
+gitignore
+kubespray
+/kubespray
