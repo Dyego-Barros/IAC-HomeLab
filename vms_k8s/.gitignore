@@ -11,3 +11,5 @@ override.tf.json
 *_override.tf
 terraform.tfstate
 terraform.tfstate.backup
+.gitignore
+.DS_Store
