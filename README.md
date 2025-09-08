@@ -1,6 +1,6 @@
 # 🏠 IAC-HomeLab
 
-Este repositório contém a infraestrutura como código (**IaC**) para montar um **Home Lab** utilizando **Proxmox**, **Terraform** e **Kubespray**, com o objetivo de provisionar e configurar automaticamente um **cluster Kubernetes** de forma prática, escalável e reprodutível.
+Este repositório contém a infraestrutura como código (**IaC**) para montar um **Home Lab** utilizando **Proxmox**, **Terraform** e **[Kubespray](https://kubespray.io/#/)**, com o objetivo de provisionar e configurar automaticamente um **cluster Kubernetes** de forma prática, escalável e reprodutível. 
 
 ---
 
@@ -17,7 +17,7 @@ A ideia é criar um ambiente completo de laboratório para:
 
 - **Proxmox VE** → Hypervisor para gerenciar máquinas virtuais (on-premise).
 - **Terraform** → Automação do provisionamento de infraestrutura no Proxmox.
-- **Kubespray** → Ferramenta para instalação e configuração do cluster Kubernetes.
+- **Kubespray** → Ferramenta para instalação e configuração do cluster Kubernetes, [Documentação](https://kubespray.io/#/).
 - **Ansible** → Base do Kubespray, para gerenciar a configuração e orquestração dos nós.
 - **Kubernetes** → Orquestrador de containers que será criado e configurado no cluster.
 
